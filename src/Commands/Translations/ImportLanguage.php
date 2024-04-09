@@ -39,6 +39,6 @@ final class ImportLanguage extends Command
             $this->io->text('lang '.$iso.' added !');
         }
 
-        return 0; // return 0 on success or 1 on failure.
+        return Command::SUCCESS;
     }
 }
