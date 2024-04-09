@@ -15,7 +15,6 @@ final class ImportLanguage extends Command
     protected function configure()
     {
         $this
-            ->setName('fop:translations') 
             ->setName('fop:translations:import')
             ->setDescription('Import a translation by iso code')
             ->setHelp('This command will import or update a translation package')
